@@ -3,7 +3,8 @@
  */
 public class Main {
     public static void main(String [] args){
-        String str = null;
+        String str = "3．14";
+        Double.parseDouble(str);
         try {
             System.out.println(str.length());
         }catch(NullPointerException e) {
